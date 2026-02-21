@@ -3,7 +3,8 @@ const counterText = document.getElementById("counter");
 
 let totalClicks = 0;
 //this took a while but I think it should work 
-// For loop code,creates the boxes using the DOM
+
+// For loop code, creates the boxes using the DOM
 for (let i = 1; i <= 10; i++) {    
     const box = document.createElement("div");
     box.classList.add("box");
@@ -20,7 +21,7 @@ box.addEventListener("click", function () {
 
     container.appendChild(box);
 }
-function updateBackground() {// While loop code, used to calculate background level
+function updateBackground() { // While loop code, used to calculate background level
     let level = 0;
     let tempClicks = totalClicks;
 
