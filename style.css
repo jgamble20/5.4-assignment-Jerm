@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    transition: background-color 0.6s ease;
+}
+
+.box {
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    margin: 10px;
+    background-color: rgb(203, 230, 173);
+    line-height: 65px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+#counter {
+    font-size: 21px;
+    margin-top: 21px;
+}
